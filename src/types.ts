@@ -777,6 +777,7 @@ export type CreateChannelOptions<StreamChatGenerics extends ExtendableGenerics =
   connect_events?: boolean;
   connection_id?: string;
   custom_events?: boolean;
+  default_pending?: boolean;
   grants?: Record<string, string[]>;
   max_message_length?: number;
   message_retention?: string;
