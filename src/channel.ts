@@ -173,7 +173,6 @@ export class Channel<StreamChatGenerics extends ExtendableGenerics = DefaultGene
       force_moderation?: boolean;
       is_pending_message?: boolean;
       keep_channel_hidden?: boolean;
-      pending?: boolean;
       pending_message_metadata?: Record<string, string>;
       skip_enrich_url?: boolean;
       skip_push?: boolean;
